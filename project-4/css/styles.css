@@ -66,6 +66,9 @@ body {
     padding-bottom: 3rem;
   }
   
+  figure {
+    display: flex;
+  }
   figcaption {
     text-align: center;
   }

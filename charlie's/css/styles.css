@@ -71,7 +71,6 @@ body {
   }
   figcaption {
     text-align: center;
-    display: flex;
   }
 
   @media screen {

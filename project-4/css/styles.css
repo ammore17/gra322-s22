@@ -9,8 +9,8 @@ body {
   }
   h1 img {
     position: left;
-    width: 220px;
-    height: 200px;
+    width: 210px;
+    height: 150px;
     padding: 1rem;
   }
   h3 {
@@ -26,19 +26,19 @@ body {
     color: #fff;
   }
   
-  &__header {
+  .__header {
     position: sticky;
     top: 0;
     padding: 1em;
     color: #a99160;
     background: #171717;
   }
-  &__content {
+  .__content {
     padding: 1em;
     display: flex;
-    justify-content: left;
+    justify-content: center;
   }
-    & > div {
+    .div {
       max-width: 992px;
     }
 
@@ -66,6 +66,10 @@ body {
     padding-bottom: 3rem;
   }
   
+  figcaption {
+    text-align: center;
+  }
+
   @media screen {
     @media (min-width: 375px) { }
       @media (min-width: 768px) { }

@@ -11,6 +11,7 @@
   <!-- Load Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -22,72 +23,62 @@
     <div class="section__header">
       <h1>
         <img src="https://raw.githubusercontent.com/ammore17/charlieslogo/main/cl.png" />
+        Menu Location About 
       </h1>
+
+      <h2>
+        Coffee Time is all the time 
+        Find time to grab a cup today.
+        <img src="img/editheader.png" alt="different cups of coffee" title="three friends cheering with their different cups of coffee"/>
+      </h2>
+
+      <h3>
+        Iced Drinks
+      </h3>
     </div>
-    <div class="section__content">
-        <h2>
-          Menu
-        </h2>
-        <h3>
-          Iced Drinks
-        </h3>
-        <figure>
-        <img src="img/ice-coffee.jpg" alt="a cup of coffee with cream poured into it" title="hand holding a cup of coffee with cream being poured into it" class="align-center medium" />
-        <figcaption> iced coffee $2.75 </figcaption>
-      </figure>
-      <figure>
-        <img src="img/americano.jpg" alt="a plastic cup of espresso with ice" title="chunks of ice falling into the cup" class="align-center medium" />
-        <figcaption>americano $2.00 $2.50 $3.25 </figcaption>
-      </figure>
-      <figure>
-        <img src="img/espressoo.jpg" alt="small glass of espresso" title="shot glass of espresso on a table" class="align-center medium" />
-        <figcaption> espresso $2.25 $2.75 $3.20</figcaption>
-      </figure>
+    <div class="iceddrinks">  
+        <div><img src="img/ice-coffee.jpg" alt="a cup of coffee with cream poured into it" title="hand holding a cup of coffee with cream being poured into it"/></div>
+        <div>iced coffee $2.75</div> 
+        <div><img src="img/americano.jpg" alt="a plastic cup of espresso with ice" title="chunks of ice falling into the cup" /></div>
+        <div>americano $2.00 $2.50 $3.25 </div>
+        <div><img src="img/espressoo.jpg" alt="small glass of espresso" title="shot glass of espresso on a table" /></div>
+        <div>espresso $2.25 $2.75 $3.20</div>
     </div>
   </section>
-  
-    </div>
-  
-    <div class="section__content">
-      <div>
-        <h3>
-          Hot Drinks
-        </h3>
-        <figure>
-        <img src="img/drip.jpg" alt="a hot cup of coffee on a wooden counter top" title="hot cup of joe" class="align-center medium" />
-      </figure>
-        <figcaption>drip coffee $2.15, $2.50, $2.75 </figcaption> 
-      </div>
-    </div>
-  
+  <h3>
+    Hot Drinks
+  </h3>
   <section class="section">
     <div class="section__header">
+    <div class="hotdrinks">
+        <div><img src="img/drip.jpg" alt="a hot cup of coffee on a wooden counter top" title="hot cup of joe" /></div>
+        <figcaption>drip coffee $2.15, $2.50, $2.75 </figcaption> 
+        <div><img src="img/hot-chocolate.jpg" alt="hot cup of hot chocolate" title="hot cup of hot chocolate with whipped cream on a plate on a wooden table" /></div>
+        <figcaption>hot chocolate $3.25, $3.75, $4.25 </figcaption>
+        <div> <img src="img/chai.jpg" alt="hot cup of chai" title="hot cup of chai in a glass cup on table" /> </div>
+        <figcaption>chai $3.25, $3.95, $4.25 </figcaption>
+    </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__header">
+  <h3>
+  Sandwiches
+  </h3>
     </div>
   
-    <div class="section__content">
-      <div>
-        <h3>
-          Sandwiches
-        </h3>
-        <figure>
-        <img src="img/serville.jpg" alt="grilled seville sandwich on plate" title="seville served with chips" class="align-center medium" />
-        </figure>
-        <figcaption> serville $4.25</figcaption>
-        <figure>
-        <img src= "img/veg-panini.jpg" alt="grilled veggie sandwich" title="vegetarian panini" class="align-center medium" />
-        </figure> 
+    <div class="sandwiches">
+        <div><img src="img/serville.jpg" alt="grilled seville sandwich on plate" title="seville served with chips" /></div>
+          <figcaption> serville $4.25</figcaption>
+        <div><img src= "img/veg-panini.jpg" alt="grilled veggie sandwich" title="vegetarian panini" /></div>
         <figcaption>vegetarian panini $4.25</figcaption>
-        <figure> 
-          <img src="img/med-chicken.jpg" alt="mediterranean chicken flatbread sandwich" class="align-center medium" />
+         <div><img src="img/med-chicken.jpg" alt="mediterranean chicken flatbread sandwich" /></div>
         <figcaption> mediterranean chicken $4.25</figcaption>
-        </figure>
-
-      </div>
     </div>
   </section>
   </div>
   </div>
-  </section>
 
 <footer>
   <div class="footer">
@@ -95,13 +86,19 @@
     phone: 480-727-0377<br/>
     email: charliescafesm@outlook.com<br/>
     </h6>
-    
+    <div class="icons">
+    <img src="fontawesome/svgs/brands/twitter-square.svg" alt="twitter logo" title="small twitter logo in square"/>
+    <img src="fontawesome/svgs/brands/facebook.svg" alt="facebook logo" title="small facebook logo"/>
+    <img src="fontawesome/svgs/brands/snapchat.svg" alt="snapchat logo" title="small snapchat logo"/>
+    <img src="fontawesome/svgs/brands/instagram.svg" alt="instagram logo" title="small instagram logo"/>
+  </div>
   </div>
 </footer>
 
 
 
   <!-- Load Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
   <script src="js/scripts.js"></script>
 
 </body>

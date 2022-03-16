@@ -1,3 +1,23 @@
+
+.tns-outer {
+  position: relative;
+  padding: 7rem;
+  padding-bottom: 7rem;
+  }
+  
+  .tns-controls {
+      display: flex;
+      justify-content: space-between;
+      padding: 4rem;
+      position: absolute;
+      z-index: 100;
+      width: 100%;
+  }
+  .tn-controls button {
+      border: 1px  solid black;
+      margin-right: 1rem;
+  }
+
 body {
     font-family: "poppins";
     font-weight: 300;
@@ -6,9 +26,17 @@ body {
     font-size: 1.4em;
     letter-spacing: 0.05em;
     line-height: 1.5em;
+    text-align: center;
   }
+
+  h1{
+    text-align: right;
+    word-spacing: 1em;
+    padding: 3rem;
+  }
+
   h1 img {
-    position: left;
+    object-position: left;
     width: 210px;
     height: 150px;
     padding: 1rem;
@@ -24,34 +52,36 @@ body {
     background-color: #9c6335;
     padding: 1rem;
     color: #fff;
+    text-align: left;
+  }
+
+  h2 img {
+    display: flex;
+    width: fit-content;
+    object-position: right;
   }
   
   .__header {
-    position: sticky;
+    position: flex;
     top: 0;
     padding: 1em;
     color: #a99160;
-    background: #171717;
   }
   .__content {
     padding: 1em;
     display: flex;
-    justify-content: center;
   }
     .div {
-      max-width: 992px;
+    max-width: 992px;
+    display: flex;
     }
 
-  img.align-center {
-    display: block;
-    margin: 0px auto;
-    padding: 1rem;
-    padding-bottom: 0rem;
-  }
   img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
+
+ 
   .footer {
     background-color: #9c6335;
     padding: 2%;
@@ -60,18 +90,13 @@ body {
     font-size: 20px;
   }
   
-  p {
-    text-align: center;
-    padding: 1rem;
-    padding-bottom: 3rem;
+  .icons{
+   width: 40px;
+   height: 40px;
+   display:flex;
+   object-position: right;
   }
-  
-  figure {
-    display: flex;
-  }
-  figcaption {
-    text-align: center;
-  }
+
 
   @media screen {
     @media (min-width: 375px) { }

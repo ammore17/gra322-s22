@@ -51,6 +51,7 @@ body {
   img {
     width: 250px;
     height: 250px;
+    display: flex;
   }
   .footer {
     background-color: #9c6335;
@@ -64,10 +65,6 @@ body {
     text-align: center;
     padding: 1rem;
     padding-bottom: 3rem;
-  }
-  
-  figure {
-    display: flex;
   }
   figcaption {
     text-align: center;

@@ -37,7 +37,7 @@ body {
   }
 
   h1 img {
-    object-position: left;
+    display: flex;
     width: 220px;
     height: 160px;
     padding: 1px;
@@ -57,8 +57,9 @@ body {
   }
 
   h2 img {
-    display: flex;
-    width: fit-content;
+    position: absolute;
+    right: 0rem;
+    top: 15rem;
   }
   
   .__header {
@@ -79,10 +80,7 @@ body {
   img {
     width: 200px;
     height: 200px;
-  }
-  .iceddrinks{
     display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
   }
  
   .footer {
@@ -96,7 +94,8 @@ body {
    width: 40px;
    height: 40px;
    display: flex;
-   grid-template-columns: 1fr 1fr 1fr;
+   right: 20rem;
+   bottom: 20rem;
   }
 
 
@@ -106,3 +105,4 @@ body {
         @media (min-width: 1280px) { }
     
   }
+

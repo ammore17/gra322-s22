@@ -1,5 +1,5 @@
 
-.tns-outer {
+  .tns-outer {
   position: relative;
   padding: 7rem;
   padding-bottom: 7rem;
@@ -18,30 +18,41 @@
       margin-right: 1rem;
   }
 
-body {
+  body {
     font-family: "poppins";
     font-weight: 400;
   }
-  .section {
-    font-size: 1.4em;
-    letter-spacing: 0.05em;
-    line-height: 1.5em;
-    text-align: center;
+
+  header img {
+    display: flex;
+    width: 230px;
+    height: 160px;
+    padding: 5px;
   }
 
-  h1{
+  nav {
     text-align: right;
     word-spacing: 1em;
     padding: 3rem;
     font-size: 20px;
   }
 
-  h1 img {
+  .banner {
     display: flex;
-    width: 220px;
-    height: 160px;
-    padding: 1px;
+    margin-bottom: 4rem;
   }
+
+  .banner img {
+    object-fit: cover;
+  }
+
+  .banner-text {
+    background-color: #9c6335;
+    padding: 1rem;
+    color: #fff;
+    text-align: left;
+  }
+
   h3 {
     text-align: center;
     padding: 1rem;
@@ -49,73 +60,46 @@ body {
     margin: 0;
     font-weight: normal;
   }
-  h2 {
-    background-color: #9c6335;
-    padding: 1rem;
-    color: #fff;
-    text-align: left;
-  }
 
-  h2 img {
-    position: absolute;
-    right: 0rem;
-    top: 15rem;
-  }
-  
-  .__header {
-    position: flex;
-    top: 0;
-    padding: 1em;
-    color: #a99160;
-  }
-  .__content {
-    padding: 1em;
-    display: flex;
-  }
-    .div {
-    max-width: 992px;
-    display: flex;
-    }
-
-  .iceddrinks img {
+  .slideshow {
     width: 200px;
     height: 200px;
+    padding: 15px;
+    border: 3px;
     object-fit: cover;
-    margin:0 auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .map {
-    float: left; 
+  .location {
     margin-bottom: 1em; 
     margin-left: 2em;
     padding-right: 2%; 
     width: 33%;
   }
 
-  .map img {
-    float: right; 
-    padding-right: 0%; 
+  .location img {
     width: 200px;
     height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
  
-  .footer {
-    margin-bottom: 1em;
+  footer {
     margin-left: 2em;
     padding-right: 2%; 
     width: 33%;
     color: black;
     font-size: 20px;
-  }
-  
-  .icons{
-   width: 40px;
-   height: 40px;
-   display: flex;
-   right: 20rem;
-   bottom: 20rem;
+    display: flex;
   }
 
+  .icons {
+    height: 40px;
+
+    margin-left: 50%;
+  }
 
 @media screen and (min-width: 768px){
   .page-header{

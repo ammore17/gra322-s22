@@ -1,5 +1,5 @@
 var slider = tns({
-    container: '.hotdrinks',
+    container: '.slideshow',
     nav: false,
     items: 3,
     slideBy: 'page',
@@ -7,7 +7,7 @@ var slider = tns({
   });
 
   var slider = tns({
-    container: '.sandwiches',
+    container: '.slideshow',
     nav: false,
     items: 3,
     slideBy: 'page',
@@ -15,7 +15,7 @@ var slider = tns({
   });
 
   var slider = tns({
-    container: '.iceddrinks',
+    container: '.slideshow',
     nav: false,
     items: 3,
     slideBy: 'page',

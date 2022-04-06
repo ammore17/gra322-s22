@@ -1,22 +1,20 @@
-
   .tns-outer {
-  position: relative;
-  padding: 7rem;
-  padding-bottom: 7rem;
-  }
-  
-  .tns-controls {
-      display: flex;
-      justify-content: space-between;
-      padding: 4rem;
-      position: absolute;
-      z-index: 100;
-      width: 100%;
-  }
-  .tn-controls button {
-      border: 1px  solid black;
-      margin-right: 1rem;
-  }
+    position: relative;
+    }
+    
+    .tns-controls {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+    .tn-controls button {
+        background:white;
+        border: 1px  solid black;
+        margin-right: 1rem;
+    }
 
   body {
     font-family: "poppins";
@@ -24,10 +22,11 @@
   }
 
   header img {
-    display: flex;
+    display: block;
+    z-index: 100;
     width: 230px;
     height: 160px;
-    padding: 5px;
+    padding: 15px;
   }
 
   nav {
@@ -40,6 +39,7 @@
   .banner {
     display: flex;
     margin-bottom: 4rem;
+    background-color: #9c6335;
   }
 
   .banner img {
@@ -51,7 +51,6 @@
     padding: 1rem;
     color: #fff;
     text-align: center;
-    
     padding-top: 10em;
     width: 100%;
   }
@@ -64,13 +63,43 @@
     font-weight: normal;
   }
 
-  .slideshow img {
+  .iced-drinks img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+
+  }
+  .iced-drinks p {
+    text-align: center;
+  }
+
+  .hot-drinks img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hot-drinks p{
+    text-align: center;
+  }
+
+  .sandwiches img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+  }
+
+  .sandwiches p{
     text-align: center;
   }
 
@@ -78,6 +107,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 3px;
+    margin-top: 5em;
   }
 
   .hours img{
@@ -87,24 +117,26 @@
 
    .location {
     margin-bottom: 1em; 
-    margin-left: 2em;
-    padding-right: 2%; 
-    width: 33%;
+    margin-left: 20em;
+    padding-right: 5%; 
+  }
+
+  .location h2 {
+    font-size: 20px;
   }
 
   footer {
-    margin-left: 2em;
-    padding-right: 2%; 
+    margin-top: 5em;
+    margin-left: 7em;
     width: 33%;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     display: flex;
   }
 
   .icons {
-    height: 40px;
-    margin-bottom: 10rem;
-    margin-left: 50%;
+    margin-bottom: 10rem; 
+    font-size: 24px;
   }
 
 @media screen and (min-width: 768px){

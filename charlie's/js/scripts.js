@@ -1,5 +1,15 @@
+
 var slider = tns({
-    container: '.slideshow',
+  container: '.slideshow1',
+  nav: false,
+  items: 3,
+  slideBy: 'page',
+  mouseDrag: true,
+});
+
+
+  var slider = tns({
+    container: '.slideshow2',
     nav: false,
     items: 3,
     slideBy: 'page',
@@ -7,15 +17,7 @@ var slider = tns({
   });
 
   var slider = tns({
-    container: '.slideshow',
-    nav: false,
-    items: 3,
-    slideBy: 'page',
-    mouseDrag: true,
-  });
-
-  var slider = tns({
-    container: '.slideshow',
+    container: '.slideshow3',
     nav: false,
     items: 3,
     slideBy: 'page',

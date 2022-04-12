@@ -1,0 +1,29 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+nav {
+    text-align: right;
+    padding: .5rem;
+    font-size: 18px;
+    background-color: lightgray;
+}
+
+li {
+    display: inline;
+    padding: 2rem;
+}
+
+h1 {
+    padding-left: 4%;
+}
+
+p {
+    padding-left: 4%;
+    margin-top: 9px;
+}
+
+footer {
+    margin-top: 30rem;
+}

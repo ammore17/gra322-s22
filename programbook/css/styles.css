@@ -10,6 +10,11 @@ nav {
     background-color: lightgray;
 }
 
+a:hover {
+    color: black;
+
+}
+
 li {
     display: inline;
     padding: 2rem;
